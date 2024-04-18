@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    background: url(About\ Background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+}
+
+.hero {
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+    position: relative;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background: #1a1a1a00;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav .logo {
+    width: 80px;
+    border-radius: 50%;
+}
+
+nav ul {
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.title h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: #ffffff;
+    font-size: 42px;
+}
+
+.title h1::after {
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+.about {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background: url(Water_Submerge.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card h2 {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.card1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background: url(Gym_submerge_2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card1 h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.card1 p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.card2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background: url(RESTAURANT_SUBMERGE_2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card2 h2 {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.card2 p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.button1 {
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+}
+
+.button1:hover {
+    background: rgb(91, 190, 255);
+    color: #000000;
+}
+
+.button2 {
+    background: none;
+    border: 1px solid #ffffff;
+    color: #000000;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+}
+
+.button2:hover {
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.button3 {
+    background: none;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+}
+
+.button3:hover {
+    background: rgb(198, 153, 6);
+    color: #000000;
+}
